@@ -38,11 +38,36 @@ button {
 }
 
 a {
-  /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
 
 ul {
   list-style-type: none;
+}
+body{
+  height: 100vh;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.links, li, a{
+  display: flex;
+  gap: 16px;
+}
+button,
+.notifications,
+.profile-image{
+  display: inline-flex;
+  float: right;
+}
+.notifications{
+  margin-left: auto;
+}
+.profile-image{
+  margin-left: 10px;
 }

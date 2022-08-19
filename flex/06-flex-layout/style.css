@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
   height: 100vh;
   margin: 0;
@@ -9,6 +8,13 @@ body {
 
 img {
   width: 600px;
+}
+li{
+  list-style: none;
+  margin-left: 8px;
+}
+a{
+  text-decoration: none;
 }
 
 button {
@@ -25,3 +31,112 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*this is my origin code i wrote on my own, it has too many unnessesery things*/
+/*But this this code works*/
+/*
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.left-links{
+  display: flex;
+}
+.right-links{
+  display: flex;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18rem;
+  margin-bottom: auto;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left:;
+}
+button{
+  margin: 0 16px 0 0;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  color: #eeeeee;
+}
+.footer .right-links{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 16px;
+  color: #eeeeee;
+
+}
+.footer .left-links{
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  padding: 16px;
+  color: #eeeeee;
+
+}*/
+
+
+
+
+
+
+/* i wrote this code after finishing code above and after reading solution*/
+/*because my origin code seems very messy and too many lines*/
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+ul{
+  display: flex;
+}
+.content{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button{
+  margin: 8px 16px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
